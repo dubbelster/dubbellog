@@ -20,4 +20,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var log = __importStar(require("./index"));
-log.debug('Hallo!');
+log.error('Oh no boys, this really is bad :(');
+log.warn('284th warning but it is prolly fine!');
+log.info('Wow some useful information for once!');
+log.debug('Lol a dog has 4 legs!');
