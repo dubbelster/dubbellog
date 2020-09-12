@@ -1,0 +1,33 @@
+{
+  "name": "dubbellog",
+  "version": "1.0.0",
+  "description": "Very very very minimalistic logger. Made for personal use",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "buildDev": "tsc --watch",
+    "test": "nodemon dist/sandbox.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubbelster/dubbellog.git"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "Merijn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dubbelster/dubbellog/issues"
+  },
+  "homepage": "https://github.com/dubbelster/dubbellog#readme",
+  "dependencies": {
+    "get-caller-file": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/get-caller-file": "^1.0.0",
+    "@types/node": "^14.10.1"
+  }
+}
